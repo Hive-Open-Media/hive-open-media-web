@@ -1,0 +1,20 @@
+import React from 'react';
+import './App.css';
+import GoogleSignIn from './GoogleSignIn';
+const logo = require('./logo-1.png');
+
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          Hive Open Media
+        </h1>
+      </header>
+      <GoogleSignIn />
+    </div>
+  );
+}
+
+export default App;
