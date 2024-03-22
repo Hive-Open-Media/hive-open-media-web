@@ -13,6 +13,7 @@
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",
+    "gapi-script": "^1.2.0",
     "google-api-javascript-client": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import GoogleSignIn from './GoogleSignIn';
+import CreateFolder from './CreateFolder';
 const logo = require('./logo-1.png');
 
 const App: React.FC = () => {
@@ -13,6 +14,7 @@ const App: React.FC = () => {
         </h1>
       </header>
       <GoogleSignIn />
+      <CreateFolder />
     </div>
   );
 }
